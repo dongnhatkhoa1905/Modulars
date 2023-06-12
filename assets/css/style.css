@@ -89,7 +89,7 @@ a {
     margin-left: 300px;
 }
 
-.navar__link {
+.navbar__link {
     padding: 13px 19px 13px;
     font-size: 1.8rem;
     line-height: 1.32;
@@ -725,7 +725,6 @@ a {
     background: #e2eddf;
     border-radius: 33px;
     height: 185px;
-
 }
 
 .process__lis:nth-child(1) {
@@ -765,12 +764,25 @@ a {
 
 .process__project-images {
     position: absolute;
-    right:92px;
+    right: 92px;
     bottom: 0;
 }
 
-.process__project-img {
-   
+.process__item-idea {
+    display: flex;
+    justify-content: space-between;
 }
 
+.process__project-link {
+    margin-top: 22px;
+}
 
+.process__item-text {
+    width: 572px;
+    padding-right: 15px;
+    margin-right: 60px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #7d8188;
+}
