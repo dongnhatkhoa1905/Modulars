@@ -786,3 +786,158 @@ a {
     line-height: 28px;
     color: #7d8188;
 }
+
+/* feature */
+.feature {
+    font-family: "Poppins", sans-serif;
+    margin-top: 148px;
+    padding: 116px 0 63px 0;
+    background: #143c3c;
+}
+
+.feature__heading {
+    position: relative;
+    width: 457px;
+    font-weight: 600;
+    font-size: 4.2rem;
+    line-height: 1.24;
+    color: #e7f9f9;
+}
+
+.feature__heading::after {
+    position: absolute;
+    content: "";
+    width: 66px;
+    height: 2px;
+    bottom: 19px;
+    right: 103px;
+    background: var(--main-color);
+}
+
+.features__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature__content-text {
+    margin-top: 13px;
+    display: flex;
+    gap: 26px;
+}
+
+.feature__desc {
+    width: 590px;
+}
+
+.feature__desc,
+.feature__arrow,
+.feature__brwose {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 1.56;
+    color: #6a8383;
+}
+
+.feature__arrow {
+    color: #80a07b;
+}
+
+.feature__brwose {
+    color: #ffffff;
+}
+
+.feature__video {
+    width: 100%;
+    height: 544px;
+    margin-top: 75px;
+}
+
+/* customers */
+
+.customers {
+    padding-top: 140px;
+    padding-bottom: 92px;
+}
+
+.customers__heading {
+    width: 520px;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 52px;
+    /* or 124% */
+
+    /* Primary color/black */
+
+    color: #152427;
+}
+
+.customers__desc {
+    width: 547px;
+    margin-top: 20px;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    /* text color/light gray */
+
+    color: #7d8188;
+}
+
+.customers__list {
+    margin-top: 103px;
+    display: flex;
+    gap: 45px;  
+    align-items: center;
+    justify-content: center;
+}
+
+.customers__item {
+    margin-right: ;
+    vertical-align: middle;
+    text-align: center;
+    width: 350px;
+    height: 362px;
+    border: 1.5px solid #CECECE;
+    border-radius: 160px;
+}
+
+.customers__images {
+    color: #143c3c;
+}
+
+.customers__item--heading {
+    margin-top: 26px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    /* identical to box height, or 100% */
+
+    color: #152427;
+}
+
+.heading__item--desc {
+    margin-top: 9px;
+    margin: 0   auto;
+    width: 284px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+    text-align: center;
+
+    /* text color/light gray */
+
+    color: #7d8188;
+}
+
+
+.customers__item-content {
+    margin: auto 0j
+}
